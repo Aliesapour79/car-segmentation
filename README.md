@@ -14,7 +14,10 @@ You can install the required packages using the following command:
 
 
 pip install -r requirements.txt
+
+'''
 ###Usage
+
 1. Training the Model
 python train_model.py
 Set the necessary paths and parameters in the script.
@@ -23,6 +26,7 @@ Ensure that the dataset is organized with image and mask directories.
 python predict_model.py
 Set the model path, image path, input shape, and class labels in the script.
 Ensure that the model is trained with the same class labels.
+'''
 ###Model Files
 The trained model is saved as PSPNet_densenet121_model.h5.
 The prediction script uses this model for semantic segmentation.
