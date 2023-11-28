@@ -12,20 +12,18 @@ This repository contains Python scripts for training and predicting with a PSPNe
 
 You can install the required packages using the following command:
 
-```bash
+
 pip install -r requirements.txt
-Usage
+###Usage
 1. Training the Model
-bash
 python train_model.py
 Set the necessary paths and parameters in the script.
 Ensure that the dataset is organized with image and mask directories.
 2. Predicting with the Trained Model
-bash
 python predict_model.py
 Set the model path, image path, input shape, and class labels in the script.
 Ensure that the model is trained with the same class labels.
-Model Files
+###Model Files
 The trained model is saved as PSPNet_densenet121_model.h5.
 The prediction script uses this model for semantic segmentation.
 Example
@@ -52,7 +50,7 @@ The Car Segmentation dataset used in this project can be downloaded from Kaggle.
 
 To download the dataset, you can use the following command:
 
-```bash
+```
 kaggle datasets download -d intelecai/car-segmentation
 After downloading the dataset, make sure to organize it with separate directories for images and masks before using the training script.
 
