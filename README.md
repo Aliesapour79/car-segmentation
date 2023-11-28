@@ -9,7 +9,7 @@ This repository contains Python scripts for training and predicting with a PSPNe
 - segmentation_models
 - NumPy
 - Matplotlib
-![Training Image](images/training_loss.png)
+
 You can install the required packages using the following command:
 
 ```bash
