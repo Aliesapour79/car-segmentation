@@ -57,7 +57,7 @@ To download the dataset, you can use the following command:
 	 kaggle datasets download -d intelecai/car-segmentation
 After downloading the dataset, make sure to organize it with separate directories for images and masks before using the training script.
 
-The dataset is provided by Intelecai on Kaggle. Please refer to the dataset's Kaggle page for additional details.
+The dataset is provided by [Intelecai](https://www.kaggle.com/intelecai) on Kaggle. Please refer to the [dataset's Kaggle page](https://www.kaggle.com/datasets/intelecai/car-segmentation) for additional details.
 
 Feel free to explore and use the dataset for training and testing the segmentation model.
 
