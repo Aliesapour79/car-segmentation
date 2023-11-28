@@ -95,5 +95,5 @@ plt.xlabel('Epoch')
 plt.legend(loc='upper left')
 plt.show()
 
-model.save("test_model.h5")
+model.save("models/PSPNet_densenet121_model.h5")
 
