@@ -1,3 +1,4 @@
+
 # Car Segmentation using PSPNet
 
 This repository contains Python scripts for training and predicting with a PSPNet model for semantic segmentation of car images.
@@ -13,21 +14,20 @@ This repository contains Python scripts for training and predicting with a PSPNe
 You can install the required packages using the following command:
 
 
-  // pip install -r requirements.txt
+	 pip install -r requirements.txt
 
-###Usage
+**Usage**
 
-1. Training the Model
-python train_model.py
+1. Training the Model **'python train_model.py'**
+
 Set the necessary paths and parameters in the script.
 Ensure that the dataset is organized with image and mask directories.
-2. Predicting with the Trained Model
-python predict_model.py
+2. Predicting with the Trained Model **'python predict_model.py'**
 Set the model path, image path, input shape, and class labels in the script.
 Ensure that the model is trained with the same class labels.
-'''
-###Model Files
-The trained model is saved as PSPNet_densenet121_model.h5.
+
+**Model Files**
+The trained model is saved as **PSPNet_densenet121_model.h5**.
 The prediction script uses this model for semantic segmentation.
 Example
 See the example in predict_model.py for loading the trained model and making predictions on a test image.
@@ -53,8 +53,8 @@ The Car Segmentation dataset used in this project can be downloaded from Kaggle.
 
 To download the dataset, you can use the following command:
 
-```
-kaggle datasets download -d intelecai/car-segmentation
+
+	 kaggle datasets download -d intelecai/car-segmentation
 After downloading the dataset, make sure to organize it with separate directories for images and masks before using the training script.
 
 The dataset is provided by Intelecai on Kaggle. Please refer to the dataset's Kaggle page for additional details.
