@@ -18,8 +18,8 @@ You can install the required packages using the following command:
 
 **Usage**
 
- 1. Training the Model **'python train_model.py'**.
-		 Set the necessary paths and parameters in the script.
+ 1. Training the Model **'python train_model.py'**.\
+		 Set the necessary paths and parameters in the script.\
 		Ensure that the dataset is organized with image and mask directories.
 		
 2. Predicting with the Trained Model **'python predict_model.py'**.
