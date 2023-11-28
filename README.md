@@ -26,7 +26,7 @@ You can install the required packages using the following command:
 Set the model path, image path, input shape, and class labels in the script.\
 Ensure that the model is trained with the same class labels.
 
-**Model Files**
+**Model Files**\
 The trained model is saved as **PSPNet_densenet121_model.h5**.
 The prediction script uses this model for semantic segmentation.
 
