@@ -13,7 +13,7 @@ This repository contains Python scripts for training and predicting with a PSPNe
 You can install the required packages using the following command:
 
 
-//pip install -r requirements.txt
+  //pip install -r requirements.txt
 
 ###Usage
 
