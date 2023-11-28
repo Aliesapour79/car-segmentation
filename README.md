@@ -18,10 +18,10 @@ You can install the required packages using the following command:
 
 **Usage**
 
-1. Training the Model **'python train_model.py'**
-
-Set the necessary paths and parameters in the script.
-Ensure that the dataset is organized with image and mask directories.
+ 1. Training the Model **'python train_model.py'**
+		 Set the necessary paths and parameters in the script.
+		Ensure that the dataset is organized with image and mask directories.
+		
 2. Predicting with the Trained Model **'python predict_model.py'**
 Set the model path, image path, input shape, and class labels in the script.
 Ensure that the model is trained with the same class labels.
@@ -29,7 +29,9 @@ Ensure that the model is trained with the same class labels.
 **Model Files**
 The trained model is saved as **PSPNet_densenet121_model.h5**.
 The prediction script uses this model for semantic segmentation.
-Example
+
+### Example
+
 See the example in predict_model.py for loading the trained model and making predictions on a test image.
 ## Results
 
