@@ -37,8 +37,7 @@ def predict(model, image_path, input_shape, class_labels):
     return predicted_rgb
 
 # Set the necessary paths and parameters
-#path_drive_model='/content/drive/MyDrive/car-segmentation/car-segmentation/PSPNet_densnet121_model.h5'
-model_path = "C:/Users/Laptop/Documents/pycodes/AzHosh/PSPNet_densnet121_model.h5"
+model_path = "models/PSPNet_densenet121_model.h5"
 image_path = "H:/Datasets/car-segmentation/images/003.png"
 input_shape = (384, 384, 3)
 class_labels = ['background', 'car', 'wheel', 'lights', 'window']
